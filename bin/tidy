@@ -1,7 +1,0 @@
-#!/bin/bash
-ROOT='/Users/beavis/repos/shave_products/bin'
-$ROOT/space \
-| $ROOT/names \
-| $ROOT/dash \
-| $ROOT/co \
-| $ROOT/space
