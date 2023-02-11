@@ -1,0 +1,17 @@
+#!/bin/bash
+
+sed 's/Barrister & Mann/Barrister and Mann -/g' \
+| sed 's/Barrister And Mann/Barrister and Mann -/g' \
+| sed 's/B&M/Barrister and Mann - /g' \
+| sed 's/B+M/Barrister and Mann - /g' \
+| sed 's/Summer Break Soaps/Summer Break Soaps - /g' \
+| sed 's/The Club/The Club - /g' \
+| sed 's/Geo F. Trumper/Geo F. Trumper - /g' \
+| sed 's/Edwin Jagger/Edwin Jagger - /g' \
+| sed 's/Castle Forbes/Castle Forbes - /g' \
+| sed 's/Cella Milano/Cella Milano - /g' \
+| sed 's/Derby/Derby - /g' \
+| sed 's/Taconic/Taconic - /g' \
+| sed 's/Barbasol/Barbasol - /g' \
+| sed 's/St James of London/St James of London - /g' \
+| sed  "s/Captain's Choice/Captain's Choice - /g"
